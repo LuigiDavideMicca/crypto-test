@@ -22,6 +22,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
       const data: ApiResponse = await response.json();
       res.status(200).json(data);
     } catch (error) {
-      res.status(500).json({ data: [] }); // In caso di errore, restituisci un array vuoto
+      res.status(500).json({ data: [] });
     }
   }

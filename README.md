@@ -8,6 +8,7 @@ In order to run the app do the following:
 
 ## Technologies used
 
+- [Pnpm](https://pnpm.io/it/)
 - [Next.js](https://nextjs.org)
 - [Tailwind CSS](https://tailwindcss.com)
 
